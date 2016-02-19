@@ -1,0 +1,205 @@
+package observerDesignPatternHelper;
+
+public class Snippet {
+	#include <stdio.h>
+	
+	int hold[100] = {0};
+	
+	
+	//get First Process
+	int getFirstProcess(int *a, int *w, int n)
+	{
+	    int min = 0;
+	    int process = n-1;
+	    for(int i = 1; i <= n; i++){
+	        if(min >= a[i] && i < process){
+	            min = 0;
+	            process = i;
+	        }
+	    }
+	    if(a[process] != 0){
+	        w[process] += min;
+	    }
+	    //printf("First process is: %d\n" , process + 1);
+	    return process;
+	}
+	
+	
+	//is all process complete
+	int isAllProcessComplete(int *b, int n){
+	    int res = 1;
+	    for(int i = 1; i <= n; i++){
+	        if(b[i] != 0){
+	            res = 0;
+	            break;
+	        }
+	    }
+	    return res;
+	}
+	
+	//compare burst time
+	int getLeastBurstTime(int *b, int *w, int p, int q, int curTime, int check){
+	    int runPro = 0;
+	    if(b[p] > b[q]){
+	        if(!check){
+	            hold[p] = curTime;
+	        }
+	        runPro = q;
+	        if(hold[q] != 0){
+	            w[q] += curTime - hold[q];
+	        }
+	        --b[q];
+	        //printf("burst time is %d\n", b[q]);
+	        //printf("Process %d will continue & Process %d will hold\n", q, p);
+	    }
+	    else{
+	        runPro = p;
+	        --b[p];
+	        hold[q] = curTime;
+	        //printf("burst time is %d\n", b[p]);
+	        //printf("Process %d will continue & Process %d will hold\n", p, q);
+	    }
+	    return runPro;
+	}
+	
+	
+	int getLowBurstTimeAllProcessFromHold(int *b, int n)
+	{
+	    int min = 100;
+	    int index = 0;
+	    for(int i = 1; i <= n; i++){
+	        if(hold[i] != 0 && b[i] != 0){
+	            if(b[i] < min){
+	                min = b[i];
+	                index = i;
+	            }
+	        }
+	    }
+	    return index;
+	}
+	
+	
+	//get Now Arrival time
+	int getNowArrivalProcess(int *a, int p, int curTime, int n){
+	    int index = 0;
+	    for(int i = 1; i <= n; i++){
+	        if(p == i){
+	            continue;
+	        }
+	        if(a[i] == curTime){
+	            index = i;
+	            //printf("Now arrival process %d at %d\n", index, curTime);
+	            break;
+	        }
+	    }
+	    return index;
+	}
+	
+	
+	void SJFS(int *a, int *b, int *w, int n){
+	
+	    int p = getFirstProcess(a, w, n);
+	    int time = a[p];
+	    int q = 0;
+	    //printf("Start time is %d\n", time);
+	    while(!isAllProcessComplete(b, n)){
+	        if(b[p] != 0){
+	            int q = getNowArrivalProcess(a, p, time, n);
+	            if(q != 0){
+	                p = getLeastBurstTime(b, w, p, q, time, 0);
+	            }
+	            else{
+	                --b[p];
+	                //printf("burst time is %d\n", b[p]);
+	            }
+	        }
+	        else{
+	            int index = getLowBurstTimeAllProcessFromHold(b, n);
+	            if(index != 0){
+	                p = index;
+	                //printf("%d\n", p);
+	                q = getNowArrivalProcess(a, p, time, n);
+	                if(q != 0){
+	                    p = getLeastBurstTime(b, w, p, q, time, 1);
+	                }
+	                else{
+	                    w[p] += time - hold[p];
+	                    --b[p];
+	                    //printf("burst time is %d\n", b[p]);
+	                }
+	            }
+	        }
+	        time++;
+	        //printf("Time is %d\n", time);
+	    }
+	
+	
+	
+	    /*for(int i = 1; i <= n; i++)
+	    {
+	        printf("Process %d, hold time %d\n", i, hold[i]);
+	    }*/
+	
+	
+	}
+	
+	float getAvgWaitTime(int w[], int n){
+	    float sum = 0;
+	    for(int i = 1; i <= n; i++)
+	    {
+	        //printf("Process %d average time: %d\n", i, w[i]);
+	        sum += w[i];
+	    }
+	    return (float)sum/(float)n;
+	}
+	
+	float getAvgTurnAroundTime(int t[], int n){
+	    float sum = 0;
+	    for(int i = 1; i <= n; i++){
+	        sum += t[i];
+	    }
+	    return (float)sum/(float)n;
+	
+	}
+	
+	void showProcessWaitAndTurnAroundTime(int *b, int *w, int *t, int n){
+	
+	    for(int i = 1; i <= n; i++){
+	        printf("Process %d: Waiting Time: %d & ", i, w[i]);
+	        t[i] = b[i] + w[i];
+	        printf("Turn Around time: %d\n", t[i]);
+	    }
+	
+	}
+	
+	
+	
+	
+	int main(void){
+	
+	    int a[100];
+	    int b[100];
+	    int w[100];
+	    int t[100];
+	    int clone_b[100];
+	    int n;
+	    printf("Enter number of process: ");
+	    scanf("%d", &n);
+	    printf("Enter each process burst time & arrival time\n");
+	    for(int i = 1; i <= n; i++)
+	    {
+	        printf("Process %d: ", i);
+	        scanf("%d", &b[i]);
+	        scanf("%d", &a[i]);
+	        clone_b[i] = b[i];
+	        w[i] = 0;
+	    }
+	    SJFS(a, clone_b, w, n);
+	    showProcessWaitAndTurnAroundTime(b, w, t, n);
+	    printf("Average waiting time: %f\n", getAvgWaitTime(w, n));
+	    printf("Average turn around time: %f\n", getAvgTurnAroundTime(t, n));
+	    return 0;
+	}
+	
+}
+

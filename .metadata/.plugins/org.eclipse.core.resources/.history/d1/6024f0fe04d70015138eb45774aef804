@@ -1,0 +1,13 @@
+package observerDesignPattern;
+
+import observerDesignPatternHelper.Observer;
+
+public class ForecastDisplay implements Observer {
+
+	@Override
+	public void update(float temp, float humidity, float pressure) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

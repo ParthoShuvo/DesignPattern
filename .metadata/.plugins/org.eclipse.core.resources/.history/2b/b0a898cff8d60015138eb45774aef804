@@ -1,0 +1,5 @@
+package observerDesignPattern;
+
+public class PostOffice {
+
+}
