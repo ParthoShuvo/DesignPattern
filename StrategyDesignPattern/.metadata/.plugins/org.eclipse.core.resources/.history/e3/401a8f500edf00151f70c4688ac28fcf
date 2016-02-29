@@ -1,0 +1,14 @@
+package context;
+
+import strategyHelper.OperationAdd;
+import strategyHelper.Strategy;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Context context = new Context(new OperationAdd());
+		System.out.println("Sum is " + context.executeStrategy(10, 20));
+
+	}
+
+}

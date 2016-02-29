@@ -1,0 +1,37 @@
+package abstractFactoryDesign;
+
+import abstractDesignPatternHelper.Color;
+import abstractDesignPatternHelper.Shape;
+import concreteClasses.Red;
+
+public class ColorFactory extends AbstractFactory {
+
+	public ColorFactory() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	Color getColor(String colorType) {
+		Color color = null;
+		switch (colorType.toUpperCase()) {
+		case "RED":
+			color = new Red();
+			break;
+		case "BLUE":
+			break;
+		case "GREEN":
+			break;
+
+		default:
+			break;
+		}
+		return color;
+	}
+
+	@Override
+	Shape getShape(String shapeType) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.Shape"/>
+<fullyQualifiedTypeName name="concreteClasses.Red"/>
+<fullyQualifiedTypeName name="concreteClasses.Blue"/>
+<fullyQualifiedTypeName name="concreteClasses.Green"/>
+<fullyQualifiedTypeName name="concreteClasses.Circle"/>
+<fullyQualifiedTypeName name="java.awt.Rectangle"/>
+<fullyQualifiedTypeName name="concreteClasses.Rectangle"/>
+<fullyQualifiedTypeName name="concreteClasses.Square"/>
+<fullyQualifiedTypeName name="abstractFactoryDesign.ShapeFactory"/>
+<fullyQualifiedTypeName name="abstractFactoryDesign.ColorFactory"/>
+<fullyQualifiedTypeName name="abstractDesignPatternHelper.Shape"/>
+<fullyQualifiedTypeName name="abstractFactoryDesign.AbstractFactory"/>
+<fullyQualifiedTypeName name="abstractFactoryDesign.FactoryProducer"/>
+<fullyQualifiedTypeName name="abstractDesignPatternHelper.Color"/>
+</qualifiedTypeNameHistroy>

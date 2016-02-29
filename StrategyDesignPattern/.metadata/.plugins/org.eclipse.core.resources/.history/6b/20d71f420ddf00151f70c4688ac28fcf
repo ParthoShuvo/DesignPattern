@@ -1,0 +1,6 @@
+package strategyHelper;
+
+public interface Strategy {
+
+	public void doOperation();
+}

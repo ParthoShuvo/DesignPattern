@@ -1,0 +1,19 @@
+package classAdapterDesignPatten;
+
+import java.util.ArrayList;
+
+import classAdapterDesignPatternHelper.ITerget;
+
+public class EmployeeAdapter implements ITerget{
+
+	@Override
+	public void processEmployeeSalary(String[][] employeeInfo) {
+		// TODO Auto-generated method stub
+		ArrayList<Employee> employees = new ArrayList<Employee>();
+		for(int i = 0; i < employeeInfo.length; i++){
+			Employee employee = new Employee();
+		}
+		
+	}
+
+}

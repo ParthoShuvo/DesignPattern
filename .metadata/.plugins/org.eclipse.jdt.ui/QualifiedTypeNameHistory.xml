@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="observerDesignPattern.MailBox"/>
+<fullyQualifiedTypeName name="observerDesignPattern.PostOffice"/>
+<fullyQualifiedTypeName name="observerDesignPatternHelper.Subject"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="observerDesignPatternHelper.Observer"/>
+<fullyQualifiedTypeName name="observerDesignPattern.WeatherData"/>
+<fullyQualifiedTypeName name="observerDesignPattern.CurrentConditionsDisplay"/>
+<fullyQualifiedTypeName name="observerDesignPattern.StatisticsDisplay"/>
+<fullyQualifiedTypeName name="observerDesignPattern.ForecastDisplay"/>
+</qualifiedTypeNameHistroy>
