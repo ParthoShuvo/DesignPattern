@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="strategyHelper.Strategy"/>
+<fullyQualifiedTypeName name="context.Context"/>
+<fullyQualifiedTypeName name="strategyHelper.OperationAdd"/>
+<fullyQualifiedTypeName name="strategyHelper.OperationSubtract"/>
+<fullyQualifiedTypeName name="strategyHelper.OperationMultiply"/>
+</qualifiedTypeNameHistroy>
