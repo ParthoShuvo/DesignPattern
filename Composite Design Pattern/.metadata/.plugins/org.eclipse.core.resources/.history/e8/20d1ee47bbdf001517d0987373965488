@@ -1,0 +1,10 @@
+package compositeDesignPattern;
+
+import java.util.ArrayList;
+
+public class SongGroup extends SongComponent{
+
+	private ArrayList<SongComponent> songComponentList = new ArrayList<SongComponent>();
+	
+	
+}

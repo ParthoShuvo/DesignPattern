@@ -1,0 +1,5 @@
+package compositeDesignPattern;
+
+public abstract class SongComponent {
+
+}

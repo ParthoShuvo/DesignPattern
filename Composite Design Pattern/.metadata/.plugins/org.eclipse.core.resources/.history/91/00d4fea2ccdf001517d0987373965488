@@ -1,0 +1,13 @@
+package compositeDesignPattern;
+
+public class MainClass {
+	public static void main(String[] args) {
+		SongComponent industrialMusic = new SongGroup("Industrial Music", "bla bla bla ");
+		SongComponent heavyMetalMusic = new SongGroup("Heavy Metal Music", "bla bla bla ");
+		SongComponent dubStepMusic = new SongGroup("dubstep Music", "bla bla bla ");
+		SongComponent everySong = new SongGroup("Master Song", "bla bla bla");
+		everySong.addSongComponent(industrialMusic);
+		industrialMusic.addSongComponent(new Song("bla", "hola", 1997));
+		industrialMusic.addSongComponent(new Song("bla", "holai", 1929));
+	}
+}

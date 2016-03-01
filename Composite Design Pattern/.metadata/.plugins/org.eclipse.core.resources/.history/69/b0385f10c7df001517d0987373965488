@@ -1,0 +1,16 @@
+package compositeDesignPattern;
+
+public class Song extends SongComponent {
+
+	private String songName;
+	private String brandName;
+	private int releaseYear;
+	
+	public Song(String songName, String brandName, int releaseYear) {
+		this.songName = songName;
+		this.brandName = brandName;
+		this.releaseYear = releaseYear;
+	}
+	
+	
+}

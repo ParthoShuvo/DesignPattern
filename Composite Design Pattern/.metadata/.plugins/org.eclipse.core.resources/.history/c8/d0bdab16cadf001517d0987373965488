@@ -1,0 +1,7 @@
+package compositeDesignPattern;
+
+public class MainClass {
+	SongComponent industrialMusic = new SongGroup("Industrial Music", "bla bla bla ");
+	SongComponent heavyMetalMusic = new SongGroup("Heavy Metal Music", "bla bla bla ");
+	SongComponent dubStepMusic = new SongGroup("dubstep Music", "bla bla bla ");
+}

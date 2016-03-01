@@ -1,0 +1,32 @@
+package compositeDesignPattern;
+
+public class Song extends SongComponent {
+
+	private String songName;
+	private String brandName;
+	private int releaseYear;
+	
+	public Song(String songName, String brandName, int releaseYear) {
+		this.songName = songName;
+		this.brandName = brandName;
+		this.releaseYear = releaseYear;
+	}
+	
+	@Override
+	public String getSongName() {
+		// TODO Auto-generated method stub
+		return songName;
+	}
+	
+	@Override
+	public String getBandName() {
+		// TODO Auto-generated method stub
+		return brandName;
+	}
+	
+	public int getReleaseYear() {
+		return releaseYear;
+	}
+	
+	
+}

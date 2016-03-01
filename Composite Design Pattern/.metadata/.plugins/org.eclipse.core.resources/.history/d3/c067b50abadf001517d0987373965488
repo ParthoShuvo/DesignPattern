@@ -1,0 +1,9 @@
+package compositeDesignPattern;
+
+public abstract class SongComponent {
+
+	
+	public void addSongComponent(SongComponent newSongComponent){
+		throw  new UnsupportedOperationException();
+	}
+}
