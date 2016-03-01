@@ -1,0 +1,14 @@
+package objectAdapterDesignPattern;
+
+import java.util.ArrayList;
+
+import defaultPackage.Employee;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ArrayList<Employee> employeeList = new ArrayList<Employee>();
+
+	}
+
+}

@@ -1,0 +1,7 @@
+
+public interface Enumeration {
+	
+	public void hasMoreElement();
+	
+	public void hasElement();
+}

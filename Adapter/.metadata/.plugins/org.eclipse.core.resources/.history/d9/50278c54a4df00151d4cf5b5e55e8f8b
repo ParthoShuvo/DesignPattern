@@ -1,0 +1,16 @@
+
+public class Employee {
+	
+	private String employeeName;
+	private String designation;
+	private String salary;
+	
+	
+	public Employee(String employeeName, String designation, String salary) {
+		this.employeeName = employeeName;
+		this.designation = designation;
+		this.salary = salary;
+	}
+	
+	
+}

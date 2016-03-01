@@ -6,10 +6,20 @@
 <fullyQualifiedTypeName name="adapterDesignPatternHelper.Duck"/>
 <fullyQualifiedTypeName name="adapterDesignPattern.TurkeyAdapter"/>
 <fullyQualifiedTypeName name="classAdapterDesignPatternHelper.ITerget"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="classAdapterDesignPatten.Employee"/>
 <fullyQualifiedTypeName name="classAdapterDesignPatten.ThirdPartyBillingSystem"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="classAdapterDesignPatten.EmployeeAdapter"/>
 <fullyQualifiedTypeName name="classAdapterDesignPatten.HumanResourceSystem"/>
+<fullyQualifiedTypeName name="objectAdapterDesignPattern.ThirdPartyBillingSystem"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="defaultPackage.Enumeration"/>
+<fullyQualifiedTypeName name="objectAdapterDesignPattern.EnumerationIterator"/>
+<fullyQualifiedTypeName name="java.lang.Iterable"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="defaultPackage.Employee"/>
+<fullyQualifiedTypeName name="classAdapterDesignPattern.EnumerationIterator"/>
 </qualifiedTypeNameHistroy>

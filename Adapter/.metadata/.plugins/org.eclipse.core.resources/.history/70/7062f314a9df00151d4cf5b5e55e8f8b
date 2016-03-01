@@ -1,0 +1,23 @@
+package objectAdapterDesignPattern;
+
+import defaultPackage.Enumeration;
+
+public class EnumerationIterator implements Enumeration{
+	
+	
+	
+
+	@Override
+	public boolean hasMoreElement() {
+		// TODO Auto-generated method stub
+		return false;
+		
+	}
+
+	@Override
+	public Object nextElement() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

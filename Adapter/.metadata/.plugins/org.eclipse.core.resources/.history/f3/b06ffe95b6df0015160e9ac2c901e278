@@ -1,0 +1,18 @@
+package classAdapterDesignPattern;
+
+import adapterDesignPatternHelper.Duck;
+import objectAdapterDesignPattern.WildTurkey;
+
+public class TurkeyAdapter extends WildTurkey implements Duck {
+
+	
+	
+	
+	@Override
+	public void quack() {
+		System.out.println("quacking quacking");
+		gobble();
+
+	}
+
+}

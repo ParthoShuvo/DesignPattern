@@ -1,0 +1,5 @@
+package objectAdapterDesignPattern;
+
+public class EnumerationIterator {
+
+}

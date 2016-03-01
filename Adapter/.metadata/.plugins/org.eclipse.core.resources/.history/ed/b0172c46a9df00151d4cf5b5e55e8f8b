@@ -1,0 +1,29 @@
+package objectAdapterDesignPattern;
+
+import java.util.Iterator;
+
+import defaultPackage.Employee;
+import defaultPackage.Enumeration;
+
+public class EnumerationIterator implements Enumeration {
+
+	private Iterator<Employee> employeeIterator;
+
+	public EnumerationIterator(Iterator<Employee> newEmployeeIterator) {
+		employeeIterator = newEmployeeIterator;
+	}
+
+	@Override
+	public boolean hasMoreElement() {
+		// TODO Auto-generated method stub
+		return false;
+
+	}
+
+	@Override
+	public Object nextElement() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

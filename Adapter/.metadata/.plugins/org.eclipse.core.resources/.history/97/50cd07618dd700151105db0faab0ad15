@@ -1,5 +1,0 @@
-package adapterDesignPatternHelper;
-
-public interface Duck {
-
-}
