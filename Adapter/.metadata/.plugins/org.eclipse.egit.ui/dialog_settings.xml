@@ -14,4 +14,6 @@
 		<item value="370" key="DIALOG_X_ORIGIN"/>
 		<item value="8" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="GitCommitMessageComponent">
+	</section>
 </section>

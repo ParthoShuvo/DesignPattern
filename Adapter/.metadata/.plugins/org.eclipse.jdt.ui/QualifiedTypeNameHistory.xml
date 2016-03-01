@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="adapterDesignPatternHelper.Turkey"/>
 <fullyQualifiedTypeName name="adapterDesignPattern.MallardDuck"/>
 <fullyQualifiedTypeName name="adapterDesignPattern.WildTurkey"/>
-<fullyQualifiedTypeName name="adapterDesignPatternHelper.Duck"/>
 <fullyQualifiedTypeName name="adapterDesignPattern.TurkeyAdapter"/>
 <fullyQualifiedTypeName name="classAdapterDesignPatternHelper.ITerget"/>
 <fullyQualifiedTypeName name="classAdapterDesignPatten.Employee"/>
@@ -22,4 +21,8 @@
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="defaultPackage.Employee"/>
 <fullyQualifiedTypeName name="classAdapterDesignPattern.EnumerationIterator"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="objectAdapterDesignPattern.MallardDuck"/>
+<fullyQualifiedTypeName name="objectAdapterDesignPattern.WildTurkey"/>
+<fullyQualifiedTypeName name="adapterDesignPatternHelper.Duck"/>
 </qualifiedTypeNameHistroy>
