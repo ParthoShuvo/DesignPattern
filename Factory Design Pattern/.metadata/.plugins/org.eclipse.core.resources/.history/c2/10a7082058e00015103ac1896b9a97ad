@@ -1,0 +1,12 @@
+package factoryDesignPattern;
+
+import java.util.Scanner;
+
+public class MainClass {
+	
+	public static void main(String args[]){
+		Factory factory = new Factory();
+		Scanner scanner = new Scanner(System.in);
+		String choice;
+	}
+}

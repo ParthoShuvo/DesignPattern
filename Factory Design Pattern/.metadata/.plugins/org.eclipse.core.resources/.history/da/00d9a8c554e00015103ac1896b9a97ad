@@ -1,0 +1,19 @@
+package factoryDesignPattern;
+
+import java.util.Scanner;
+
+public class MainClass {
+	
+	public static void main(String[] args){
+		EnemyShipFactory factory = new EnemyShipFactory();
+		Scanner scanner = new Scanner(System.in);
+		String choice;
+		choice = scanner.nextLine();
+	}
+	
+	public static void showResult(EnemyShip enemyShip){
+		enemyShip.followHeroShip();
+		enemyShip.displayEnemyShip();
+		enemyShip.displayEnemyShip();
+	}
+}
