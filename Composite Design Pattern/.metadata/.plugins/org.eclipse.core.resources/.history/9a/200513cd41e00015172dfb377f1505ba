@@ -1,0 +1,19 @@
+package employeeHierarchy;
+
+import java.util.ArrayList;
+
+public class DepartmentHead extends Employee {
+
+	private ArrayList<Employee> employeeList = new ArrayList<Employee>();
+
+	public DepartmentHead(String name, String department, int salary) {
+		super(name, department, salary);
+	}
+
+	@Override
+	protected void addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		employeeList.add(employee);
+	}
+
+}

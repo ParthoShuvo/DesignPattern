@@ -1,0 +1,32 @@
+package employeeHierarchy;
+
+public abstract class Employee {
+	
+	protected String name;
+	protected String department;
+	protected int salary;
+	
+	protected String getName() {
+		return name;
+	}
+	protected String getDepartment() {
+		return department;
+	}
+	protected int getSalary() {
+		return salary;
+	}
+	
+	protected void addEmployee(Employee employee){
+		throw new UnsupportedOperationException();
+	}
+	
+	protected void removeEmployee(Employee employee){
+		throw new UnsupportedOperationException();
+	}
+	
+	protected Employee getEmployee(int employeeInd){
+		throw new UnsupportedOperationException();
+	}
+	
+	
+}

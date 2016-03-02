@@ -1,0 +1,11 @@
+package employeeHierarchy;
+
+public class DepartmentHead extends Employee{
+
+	public DepartmentHead(String name, String department, int salary) {
+		super(name, department, salary);
+	}
+
+	
+	
+}
