@@ -1,0 +1,14 @@
+package Example1;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Duck duck = DonaldDuck.getInstance();
+		System.out.println(duck);
+		Duck duck2 = GoofyDuck.getInstance();
+		System.out.println(duck2);
+
+	}
+
+}
