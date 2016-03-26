@@ -1,6 +1,7 @@
 package example1;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class DemoAdapterTest {
 
@@ -13,9 +14,9 @@ public class DemoAdapterTest {
 		studentList.add(student);
 		student = new Student("Likhon", "13-01-04-113", "CSE");
 		studentList.add(student);
-		Enum enum1 = new EnumIteratorAdapter(studentList);
-		while (enum1.hasNextElement()) {
-			student = (Student) enum1.nextElement();
+		Iterator<Object> iterator = new EnumIteratorAdapter(studentList);
+		while (iterator.hasNext()) {
+			student = (Student) iterator.next();
 			System.out.println("Name: " + student.getName() + " ID: " + student.getID() + 
 					" Department: " + student.getDept());
 		}

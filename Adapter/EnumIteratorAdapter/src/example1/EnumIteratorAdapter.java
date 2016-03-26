@@ -3,32 +3,27 @@ package example1;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class EnumIteratorAdapter implements Enum{
+public class EnumIteratorAdapter implements Iterator<Object>{
 
-	private Iterator<Object> iterator = null;
 	
+	private Enum enum1 = null;
 	
 	public EnumIteratorAdapter(ArrayList<Object> arrayList) {
-		if(arrayList != null && arrayList.size() > 0){
-			iterator = arrayList.iterator();
-		}
+		// TODO Auto-generated constructor stub
+		enum1 = new Enum(arrayList);
 	}
 	
 	
 	@Override
-	public boolean hasNextElement() {
-		if(iterator.hasNext()){
-			return true;
-		}
-		return false;
+	public boolean hasNext() {
+		return enum1.hasMoreElements();
 	}
 
 	@Override
-	public Object nextElement() {
-		Object object = iterator.next();
-		return object;
+	public Object next() {
+		// TODO Auto-generated method stub
+		return enum1.nextElement();
 	}
-	
 	
 	
 	

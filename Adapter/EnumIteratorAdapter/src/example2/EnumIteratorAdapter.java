@@ -1,51 +1,27 @@
 package example2;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 import example1.Enum;
 
-public class EnumIteratorAdapter extends Iterable implements Enum {
-
-	private int index = -1;
-	private ArrayList<Object> arrayList;
+public class EnumIteratorAdapter extends Enum implements Iterator<Object> {
 
 	public EnumIteratorAdapter(ArrayList<Object> arrayList) {
-		if (arrayList != null && arrayList.size() > 0) {
-			index = 0;
-			this.arrayList = arrayList;
-		}
-	}
+		// TODO Auto-generated constructor stub
+		super(arrayList);
 
-	@Override
-	public boolean hasNextElement() {
-		if (hasNext()) {
-			return true;
-		}
-		return false;
-	}
-
-	@Override
-	public Object nextElement() {
-		Object object = next();
-		return object;
 	}
 
 	@Override
 	public boolean hasNext() {
-		if (index != -1 && index < arrayList.size()) {
-			return true;
-		}
-		return super.hasNext();
+		return hasMoreElements();
 	}
 
 	@Override
 	public Object next() {
-		Object object = null;
-		if (index != -1 && index < arrayList.size()) {
-			object = arrayList.get(index);
-			index++;
-		}
-		return object;
+		// TODO Auto-generated method stub
+		return nextElement();
 	}
 
 }
