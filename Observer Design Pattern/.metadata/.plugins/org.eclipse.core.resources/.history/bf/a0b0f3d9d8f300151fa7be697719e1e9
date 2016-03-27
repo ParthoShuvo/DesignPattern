@@ -1,0 +1,5 @@
+package example1;
+
+public class ForcastDisplay extends CurrentConditionsDisplay {
+
+}

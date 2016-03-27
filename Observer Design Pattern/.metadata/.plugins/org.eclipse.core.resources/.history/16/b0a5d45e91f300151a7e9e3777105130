@@ -1,0 +1,44 @@
+package observerdesignpattern;
+
+import java.util.ArrayList;
+
+public class NewsChannel implements Subject {
+
+	private ArrayList<Observer> observerList = new ArrayList<Observer>();
+	
+	public NewsChannel(){
+		
+	}
+	
+	
+	@Override
+	public void registerObserver(Observer observer) {
+		// TODO Auto-generated method stub
+		if(observer != null){
+			observerList.add(observer);
+		}
+
+	}
+
+	@Override
+	public void removeObserver(Observer observer) {
+		// TODO Auto-generated method stub
+		if(!observerList.isEmpty() && observer != null){
+			observerList.remove(observer);
+		}
+
+	}
+
+	@Override
+	public void notifyObserver() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void measurementChanged() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

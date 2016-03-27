@@ -1,0 +1,53 @@
+package example1;
+
+import java.util.Observable;
+import java.util.Observer;
+
+public class CurrentConditionsDisplay implements Observer, DisplayElement {
+
+	private double temperature;
+	private double pressure;
+	
+	protected CurrentConditionsDisplay() {
+		
+	}
+	
+	
+
+	public double getTemperature() {
+		return temperature;
+	}
+
+
+
+	public void setTemperature(double temperature) {
+		this.temperature = temperature;
+	}
+
+
+
+	public double getPressure() {
+		return pressure;
+	}
+
+
+
+	public void setPressure(double pressure) {
+		this.pressure = pressure;
+	}
+
+
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Observable arg0, Object arg1) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

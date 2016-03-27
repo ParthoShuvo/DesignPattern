@@ -1,0 +1,17 @@
+package observerDesignPattern;
+
+import java.util.Observable;
+import java.util.Observer;
+
+public class TestObserver implements Observer {
+
+	private Observable observable = null;
+	
+	
+	@Override
+	public void update(Observable observable, Object object) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

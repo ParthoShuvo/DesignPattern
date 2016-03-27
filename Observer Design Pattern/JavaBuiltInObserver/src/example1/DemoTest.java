@@ -1,0 +1,31 @@
+package example1;
+
+import java.util.Observer;
+
+
+
+public class DemoTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WeatherData weatherData = new WeatherData();
+		Observer observer = new CurrentConditionsDisplay(weatherData);
+		weatherData.addObserver(observer);
+		Observer observer2 = new StattisticsDisplay(weatherData);
+		weatherData.addObserver(observer2);
+		Observer observer3 = new ForcastDisplay(weatherData);
+		weatherData.addObserver(observer3);
+		try{
+			Thread.sleep(5000);
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
+		finally {
+			weatherData.setTemperature(50.2);
+			weatherData.setPressure(10);
+			weatherData.measurementChanged();
+		}
+	}
+
+}

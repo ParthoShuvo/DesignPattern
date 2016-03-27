@@ -1,0 +1,25 @@
+package observerDesignPattern;
+
+import java.util.Observable;
+
+public class WeatherData extends Observable {
+
+	private int temparature = 0;
+
+	public WeatherData() {
+
+	}
+
+	public float getTemparature() {
+		return temparature;
+	}
+
+	public void setTemparature(int temparature) {
+		this.temparature = temparature;
+		setChanged();
+		notifyObservers();
+	}
+	
+	
+
+}

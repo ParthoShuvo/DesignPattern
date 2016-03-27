@@ -1,0 +1,20 @@
+package example1;
+
+import java.util.Observable;
+import java.util.Observer;
+
+public class CurrentConditionsDisplay implements Observer, DisplayElement {
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Observable arg0, Object arg1) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

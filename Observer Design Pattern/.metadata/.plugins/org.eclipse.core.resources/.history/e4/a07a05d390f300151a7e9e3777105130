@@ -1,0 +1,29 @@
+package observerdesignpattern;
+
+public class NewsChannel implements Subject {
+
+	@Override
+	public void registerObserver(Observer observer) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void removeObserver(Observer observer) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void notifyObserver() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void measurementChanged() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

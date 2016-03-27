@@ -1,0 +1,25 @@
+package observerdesignpattern;
+
+public class DemoObserverTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		NewsChannel newsChannel = new NewsChannel();
+		Observer observer = new NewsSubscriber();
+		newsChannel.registerObserver(observer);
+		newsChannel.registerObserver(observer);
+		newsChannel.registerObserver(observer);
+		try{
+			Thread.sleep(5000);
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
+		finally {
+			newsChannel.removeObserver(observer);
+			newsChannel.measurementChanged();
+			
+		}
+	}
+
+}

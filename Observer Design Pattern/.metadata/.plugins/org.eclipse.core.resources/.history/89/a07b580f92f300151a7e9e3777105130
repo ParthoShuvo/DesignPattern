@@ -1,0 +1,11 @@
+package observerdesignpattern;
+
+public class NewsSubscriber implements Observer {
+
+	@Override
+	public void update(String news) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
