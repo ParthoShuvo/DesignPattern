@@ -1,0 +1,12 @@
+package SingletonDesignPattern;
+
+public class GoofyDuck extends Duck {
+
+	private Duck duck = new GoofyDuck();
+	
+	private GoofyDuck() {
+	
+	}
+	
+
+}

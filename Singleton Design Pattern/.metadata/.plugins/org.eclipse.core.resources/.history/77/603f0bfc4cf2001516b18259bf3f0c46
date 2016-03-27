@@ -1,0 +1,23 @@
+package SingletonDesignPattern;
+
+public abstract class Duck {
+
+	private String name;
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	protected Duck() {
+		System.out.println("Duck has been created");
+	}
+
+	protected static Duck getInsatnce() {
+		return null;
+	}
+
+}

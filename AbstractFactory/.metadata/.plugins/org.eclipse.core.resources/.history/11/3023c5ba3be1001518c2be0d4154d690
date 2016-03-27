@@ -1,0 +1,13 @@
+package abstractFactoryDesignPattern;
+
+import abstractFactoryDesignPatternHelper.Animal;
+
+public class LandAnimalFactory extends AnimalFactory {
+
+	@Override
+	protected Animal getAnimal(String type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

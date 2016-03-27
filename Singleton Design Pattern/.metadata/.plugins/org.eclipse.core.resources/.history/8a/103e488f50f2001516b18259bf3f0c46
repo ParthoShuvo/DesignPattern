@@ -1,0 +1,16 @@
+package SingletonDesignPattern;
+
+public class DuckThread implements Runnable {
+
+	private String type;
+	public DuckThread(String type) {
+		this.type = type;
+	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

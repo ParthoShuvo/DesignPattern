@@ -12,4 +12,9 @@
 <fullyQualifiedTypeName name="observerDesignPattern.WeatherData"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="observerDesignPattern.TestObserver"/>
+<fullyQualifiedTypeName name="java.nio.BufferUnderflowException"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="example1.WeatherData"/>
+<fullyQualifiedTypeName name="example1.CurrentConditionsDisplay"/>
+<fullyQualifiedTypeName name="example1.StattisticsDisplay"/>
 </qualifiedTypeNameHistroy>

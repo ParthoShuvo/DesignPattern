@@ -1,0 +1,21 @@
+package abstractFactoryDesignPattern;
+
+import abstractFactoryDesignPatternHelper.ESEngine;
+import abstractFactoryDesignPatternHelper.ESWeapon;
+
+public abstract class EnemyShip {
+	
+	private ESWeapon weapon;
+	private ESEngine engine;
+	private String name;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+	
+}

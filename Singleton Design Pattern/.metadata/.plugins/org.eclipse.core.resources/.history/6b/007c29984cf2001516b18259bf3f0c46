@@ -1,0 +1,9 @@
+package SingletonDesignPattern;
+
+public class DonaldDuck extends Duck{
+	
+	private Duck duck = new DonaldDuck();
+	private DonaldDuck(){
+		
+	}
+}

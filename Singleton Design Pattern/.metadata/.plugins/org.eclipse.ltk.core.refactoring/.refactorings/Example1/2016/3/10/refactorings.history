@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;singleton&apos; in &apos;singletonDesignPattern.MainClass.main(...)&apos; to &apos;instanceOne&apos;&#x0D;&#x0A;- Original project: &apos;Example1&apos;&#x0D;&#x0A;- Original element: &apos;singletonDesignPattern.MainClass.main(String[]).singleton&apos;&#x0D;&#x0A;- Renamed element: &apos;singleton&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;singleton&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;singletonDesignPattern{MainClass.java[MainClass~main~\[QString;@singleton!140!186!150!158!QSingleton;!0!false" name="instanceOne" references="true" stamp="1457109999109" version="1.0"/>
+</session>

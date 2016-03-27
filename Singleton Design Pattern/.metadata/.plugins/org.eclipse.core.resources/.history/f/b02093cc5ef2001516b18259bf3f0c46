@@ -1,0 +1,38 @@
+package SingletonDesignPattern;
+
+import javax.swing.text.rtf.RTFEditorKit;
+
+public abstract class Duck {
+
+	private String name;
+	protected static Duck duck = null;
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	protected Duck() {
+		
+	}
+
+	protected static Duck getInsatnce(String type) {
+		if(duck == null){
+			synchronized (Duck.class) {
+				if(duck == null){
+					if(type.equalsIgnoreCase("Donald Duck")){
+						duck = new DonaldDuck();
+					}
+					else if(type.equalsIgnoreCase("Goofy Duck")){
+						duck = new GoofyDuck();
+					}
+				}
+			}
+		}
+		return duck;
+	}
+
+}

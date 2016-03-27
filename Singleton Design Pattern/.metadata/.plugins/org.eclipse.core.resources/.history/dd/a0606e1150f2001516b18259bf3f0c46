@@ -1,0 +1,16 @@
+package SingletonDesignPattern;
+
+public class DonaldDuck extends Duck{
+	
+	
+	private DonaldDuck(){
+		Duck.duck = new DonaldDuck();
+	}
+	
+	public static Duck getInstance(){
+		if(duck == null){
+			duck = new DonaldDuck();
+		}
+		return duck;
+	}
+}

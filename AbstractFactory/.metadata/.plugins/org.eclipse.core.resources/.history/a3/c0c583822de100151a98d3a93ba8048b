@@ -1,0 +1,5 @@
+package abstractFactoryDesignPatternHelper;
+
+public class ESBigUFOWeapon implements ESWeapon {
+
+}

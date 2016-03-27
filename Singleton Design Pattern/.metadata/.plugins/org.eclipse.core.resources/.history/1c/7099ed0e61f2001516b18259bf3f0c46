@@ -1,0 +1,15 @@
+package SingletonDesignPattern;
+
+public class ThreadTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		DuckThread thread1 = new DuckThread("Donald Duck");
+		DuckThread thread2 = new DuckThread("Goofy Duck");
+		
+		new Thread(thread1).start();
+		new Thread(thread2).start();
+	}
+
+}

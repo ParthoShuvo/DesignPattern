@@ -1,0 +1,14 @@
+package SingletonDesignPattern;
+
+public abstract class Duck {
+
+
+	protected Duck() {
+		System.out.println("Duck has been created");
+	}
+
+	protected static Duck getInsatnce() {
+		return d;
+	}
+
+}

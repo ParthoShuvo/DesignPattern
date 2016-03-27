@@ -1,0 +1,43 @@
+package example2;
+
+import java.util.ArrayList;
+
+import example1.Enum;
+
+public class EnumIteratorAdapter extends Iterable implements Enum{
+
+	private int index;
+	
+	public EnumIteratorAdapter(ArrayList<Object> arrayList) {
+		
+	}
+	
+	
+	@Override
+	public boolean hasNextElement() {
+		if(hasNext()){
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public Object nextElement() {
+		Object object = next();
+		return object;
+	}
+	
+	@Override
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return super.hasNext();
+	}
+	
+	@Override
+	public Object next() {
+		// TODO Auto-generated method stub
+		return super.next();
+	}
+	
+	
+}

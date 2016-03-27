@@ -1,0 +1,14 @@
+package SingletonDesignPattern;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Duck duck = Duck.getInstance("SingletonDesignPattern.DonaldDuck");
+		System.out.println(duck);
+		Duck duck2 = Duck.getInstance("SingletonDesignPattern.GoofyDuck");
+		System.out.println(duck2);
+
+	}
+
+}

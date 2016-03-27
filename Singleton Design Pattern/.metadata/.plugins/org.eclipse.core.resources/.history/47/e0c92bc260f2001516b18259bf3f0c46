@@ -1,0 +1,15 @@
+package Example1;
+
+public class GoofyDuck extends Duck {
+
+	
+	
+	public GoofyDuck() {
+		
+	}
+	
+	
+	
+	
+
+}

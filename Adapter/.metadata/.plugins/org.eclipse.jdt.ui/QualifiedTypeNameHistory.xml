@@ -11,18 +11,23 @@
 <fullyQualifiedTypeName name="classAdapterDesignPatten.EmployeeAdapter"/>
 <fullyQualifiedTypeName name="classAdapterDesignPatten.HumanResourceSystem"/>
 <fullyQualifiedTypeName name="objectAdapterDesignPattern.ThirdPartyBillingSystem"/>
-<fullyQualifiedTypeName name="java.util.Enumeration"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="defaultPackage.Enumeration"/>
 <fullyQualifiedTypeName name="objectAdapterDesignPattern.EnumerationIterator"/>
 <fullyQualifiedTypeName name="java.lang.Iterable"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="defaultPackage.Employee"/>
 <fullyQualifiedTypeName name="classAdapterDesignPattern.EnumerationIterator"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="objectAdapterDesignPattern.MallardDuck"/>
 <fullyQualifiedTypeName name="objectAdapterDesignPattern.WildTurkey"/>
 <fullyQualifiedTypeName name="adapterDesignPatternHelper.Duck"/>
+<fullyQualifiedTypeName name="example2.Iterable"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="example1.EnumIteratorAdapter"/>
+<fullyQualifiedTypeName name="example1.Enum"/>
+<fullyQualifiedTypeName name="example1.Student"/>
 </qualifiedTypeNameHistroy>

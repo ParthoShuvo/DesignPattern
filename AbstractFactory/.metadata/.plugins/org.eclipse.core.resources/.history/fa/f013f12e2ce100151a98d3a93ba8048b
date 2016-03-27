@@ -1,0 +1,7 @@
+package abstractFactoryDesignPatternHelper;
+
+public interface ESWeapon {
+
+	@Override
+	public String toString();
+}

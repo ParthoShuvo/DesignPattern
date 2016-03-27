@@ -1,7 +1,0 @@
-package objectAdapterDesignPattern;
-
-
-
-public class EnumerationIterator implements Enum{
-
-}

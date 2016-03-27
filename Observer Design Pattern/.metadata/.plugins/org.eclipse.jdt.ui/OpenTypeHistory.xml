@@ -3,4 +3,7 @@
 <typeInfo handle="=Example2/src&lt;observerdesignpattern{Subject.java[Subject" modifiers="513" timestamp="1459024135552"/>
 <typeInfo handle="=JavaBuiltInObserver/C:\/Program Files\/Java\/jre1.8.0_77\/lib\/rt.jar&lt;java.util(Observable.class[Observable" modifiers="33" timestamp="1458852361726"/>
 <typeInfo handle="=Example2/C:\/Program Files\/Java\/jre1.8.0_77\/lib\/rt.jar&lt;java.util(Observer.class[Observer" modifiers="1537" timestamp="1458852361726"/>
+<typeInfo handle="=JavaBuiltInObserver/src&lt;example1{DisplayElement.java[DisplayElement" modifiers="513" timestamp="1459053669368"/>
+<typeInfo handle="=JavaBuiltInObserver/C:\/Program Files\/Java\/jre1.8.0_77\/lib\/rt.jar&lt;org.omg.PortableInterceptor(DISCARDING.class[DISCARDING" modifiers="1537" timestamp="1458852361726"/>
+<typeInfo handle="=JavaBuiltInObserver/src&lt;example1{CurrentConditionsDisplay.java[CurrentConditionsDisplay" modifiers="1" timestamp="1459054714380"/>
 </typeInfoHistroy>

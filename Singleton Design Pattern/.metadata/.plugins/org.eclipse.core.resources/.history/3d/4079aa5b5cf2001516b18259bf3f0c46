@@ -1,0 +1,27 @@
+package SingletonDesignPattern;
+
+public class GoofyDuck extends Duck {
+
+	
+	
+	private GoofyDuck() {
+		
+	}
+	
+	
+
+	public static Duck getInstance() {
+		if(duck == null){
+			synchronized (GoofyDuck.class) {
+				if(duck == null){
+					
+				}
+			}
+			duck = new GoofyDuck();
+		}
+		return duck;
+	}
+	
+	
+
+}

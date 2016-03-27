@@ -1,0 +1,11 @@
+package SingletonDesignPattern;
+
+public class GoofyDuck extends Duck {
+	GoofyDuck.d = new GoofyDuck();
+	private GoofyDuck() {
+		
+		System.out.println("Goofy duck has been created");
+	}
+	
+
+}

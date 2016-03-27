@@ -1,0 +1,22 @@
+package Example1;
+
+public class DonaldDuck extends Duck {
+
+	private DonaldDuck() {
+		
+	}
+	
+	public static Duck getInstance(){
+		if(duck == null){
+			System.out.println(Thread.currentThread().getName());
+			synchronized (DonaldDuck.class) {
+				if(duck == null){
+					duck = new DonaldDuck();
+				}
+			}
+		}
+		return duck;
+	}
+
+	
+}

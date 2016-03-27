@@ -1,0 +1,8 @@
+package DoubleLockingMachanism;
+
+public class Singleton {
+	
+	private Singleton(){
+		
+	}
+}

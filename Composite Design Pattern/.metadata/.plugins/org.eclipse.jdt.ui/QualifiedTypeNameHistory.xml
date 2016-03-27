@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="compositeDesignPattern.SongComponent"/>
 <fullyQualifiedTypeName name="compositeDesignPattern.SongGroup"/>
 <fullyQualifiedTypeName name="compositeDesignPattern.DiskJockey"/>
+<fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="employeeHierarchy.DepartmentHead"/>
+<fullyQualifiedTypeName name="employeeHierarchy.Employee"/>
+<fullyQualifiedTypeName name="employeeHierarchy.Staff"/>
 </qualifiedTypeNameHistroy>

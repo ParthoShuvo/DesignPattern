@@ -1,0 +1,30 @@
+package example1;
+
+import java.util.ArrayList;
+import java.util.Enumeration;
+
+public class Enum implements Enumeration<Object>{
+
+	private ArrayList<Object> arrayList = null;
+	private int index = 0;
+	
+	public Enum(ArrayList<Object> arrayList){
+		if(arrayList != null && !arrayList.isEmpty()){
+			index = 0;
+			this.arrayList = arrayList;
+		}
+	}
+	
+	@Override
+	public boolean hasMoreElements() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Object nextElement() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

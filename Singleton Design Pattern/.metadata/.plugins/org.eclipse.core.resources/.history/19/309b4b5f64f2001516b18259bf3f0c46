@@ -1,0 +1,23 @@
+package Example1;
+
+public class DuckThread implements Runnable {
+
+	private String type;
+	private Duck duck = null;
+
+	public DuckThread(String type) {
+		this.type = type;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		if (type.equalsIgnoreCase("Donald Duck")) {
+			duck = DonaldDuck.getInstance();
+		} else if (type.equalsIgnoreCase("Goofy Duck")) {
+			duck = GoofyDuck.getInstance();
+		}
+		System.out.println(duck);
+	}
+
+}

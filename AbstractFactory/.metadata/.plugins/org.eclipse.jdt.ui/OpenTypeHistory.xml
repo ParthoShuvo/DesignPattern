@@ -3,4 +3,11 @@
 <typeInfo handle="=AbstractFactoryDesignPattern/src&lt;abstractDesignPatternHelper{Shape.java[Shape" modifiers="513" timestamp="1455914924198"/>
 <typeInfo handle="=AbstractFactoryDesignPattern/src&lt;abstractDesignPatternHelper{Color.java[Color" modifiers="513" timestamp="1455915086628"/>
 <typeInfo handle="=AbstractFactoryDesignPattern/src&lt;abstractFactoryDesign{AbstractFactory.java[AbstractFactory" modifiers="1025" timestamp="1455915409619"/>
+<typeInfo handle="=Example1/src&lt;abstractFactoryDesignPatternHelper{ESEngine.java[ESEngine" modifiers="513" timestamp="1457001583741"/>
+<typeInfo handle="=Example1/src&lt;abstractFactoryDesignPatternHelper{ESWeapon.java[ESWeapon" modifiers="513" timestamp="1457001558716"/>
+<typeInfo handle="=Example1/src&lt;abstractFactoryDesignPatternHelper{EnemyShipFactory.java[EnemyShipFactory" modifiers="513" timestamp="1457001834623"/>
+<typeInfo handle="=Example1/src&lt;abstractFactoryDesignPattern{EnemyShip.java[EnemyShip" modifiers="1025" timestamp="1457025163830"/>
+<typeInfo handle="=Example1/src&lt;abstractFactoryDesignPattern{EnemyShipBuilding.java[EnemyShipBuilding" modifiers="1025" timestamp="1457004250689"/>
+<typeInfo handle="=Example2/src&lt;abstractFactoryDesignPatternHelper{Animal.java[Animal" modifiers="513" timestamp="1457007586523"/>
+<typeInfo handle="=Example2/src&lt;abstractFactoryDesignPattern{AnimalFactory.java[AnimalFactory" modifiers="1025" timestamp="1457008183689"/>
 </typeInfoHistroy>

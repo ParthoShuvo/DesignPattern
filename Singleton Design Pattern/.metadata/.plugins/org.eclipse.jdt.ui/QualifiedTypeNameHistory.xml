@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="eagerInstantiation.Singleton"/>
+<fullyQualifiedTypeName name="lazyInstantiation.TestThread"/>
+<fullyQualifiedTypeName name="lazyInstantiation.Singleton"/>
+<fullyQualifiedTypeName name="java.lang.Throwable"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="subClassSingletonMethod1.CakeFactory"/>
+<fullyQualifiedTypeName name="subclassSingletonMethod2.EnchantedMazeFactory"/>
+<fullyQualifiedTypeName name="subclassSingletonMethod2.MazeFactory"/>
+<fullyQualifiedTypeName name="subclassSingletonMethod2.AgentMazeFactory"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="singletonDesignPattern.ScarbbleThreadTest"/>
+<fullyQualifiedTypeName name="singletonDesignPattern.ScrabbleThread"/>
+<fullyQualifiedTypeName name="singletonDesignPattern.Singleton"/>
+<fullyQualifiedTypeName name="subClassSingletonMethod1.ChocolateFactory"/>
+<fullyQualifiedTypeName name="subClassSingletonMethod1.Factory.DairyMilkFactory"/>
+<fullyQualifiedTypeName name="subClassSingletonMethod1.Factory"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="SingletonDesignPattern.DuckThread"/>
+<fullyQualifiedTypeName name="SingletonDesignPattern.ThreadTest"/>
+<fullyQualifiedTypeName name="DoubleLockingMachanism.Singleton"/>
+<fullyQualifiedTypeName name="DoubleLockingMachanism.TestThread"/>
+<fullyQualifiedTypeName name="SingletonDesignPattern.DonaldDuck"/>
+<fullyQualifiedTypeName name="SingletonDesignPattern.GoofyDuck"/>
+<fullyQualifiedTypeName name="javax.swing.text.rtf.RTFEditorKit"/>
+<fullyQualifiedTypeName name="SingletonDesignPattern.Duck"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Example1.Duck"/>
+<fullyQualifiedTypeName name="Example1.GoofyDuck"/>
+<fullyQualifiedTypeName name="Example1.DonaldDuck"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="java.lang.reflect.GenericArrayType"/>
+<fullyQualifiedTypeName name="java.lang.Package"/>
+<fullyQualifiedTypeName name="SingletonDesignPattern.Test"/>
+</qualifiedTypeNameHistroy>

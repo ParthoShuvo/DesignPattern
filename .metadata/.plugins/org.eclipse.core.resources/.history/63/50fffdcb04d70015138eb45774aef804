@@ -1,7 +1,0 @@
-package observerDesignPattern;
-
-import observerDesignPatternHelper.Observer;
-
-public interface StatisticsDisplay extends Observer {
-
-}

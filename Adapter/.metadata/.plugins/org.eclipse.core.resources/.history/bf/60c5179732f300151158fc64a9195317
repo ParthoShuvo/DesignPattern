@@ -1,0 +1,30 @@
+package example2;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class EnumIteratorAdapter implements Iterator<Object>{
+
+	
+	private Enum enum1 = null;
+	
+	public EnumIteratorAdapter(ArrayList<Object> arrayList) {
+		// TODO Auto-generated constructor stub
+		enum1 = new Enum(arrayList);
+	}
+	
+	
+	@Override
+	public boolean hasNext() {
+		return enum1.hasMoreElements();
+	}
+
+	@Override
+	public Object next() {
+		// TODO Auto-generated method stub
+		return enum1.nextElement();
+	}
+	
+	
+	
+}

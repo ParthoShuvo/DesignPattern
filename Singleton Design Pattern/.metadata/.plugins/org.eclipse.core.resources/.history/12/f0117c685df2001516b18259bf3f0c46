@@ -1,0 +1,5 @@
+package DoubleLockingMachanism;
+
+public class Thread extends java.lang.Thread {
+
+}

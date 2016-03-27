@@ -1,0 +1,5 @@
+package DoubleLockingMachanism;
+
+public class TestThread extends TestThread{
+
+}
