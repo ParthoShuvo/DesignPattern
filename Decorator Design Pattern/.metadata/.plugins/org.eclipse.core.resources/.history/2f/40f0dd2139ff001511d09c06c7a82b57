@@ -1,0 +1,22 @@
+package example3;
+
+public class Mozzarella extends ToppingDecorator {
+
+	protected Mozzarella(Pizza pizza) {
+		super(pizza);
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return super.getDescription();
+	}
+	
+	@Override
+	public double getCost() {
+		// TODO Auto-generated method stub
+		return super.getCost();
+	}
+
+}

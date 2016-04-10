@@ -1,0 +1,10 @@
+package example2;
+
+public class DecoratorPatternDemo {
+
+	public static void main(String[] args) {
+		 Car bmwCar1 = new BMWCar();
+
+	}
+
+}

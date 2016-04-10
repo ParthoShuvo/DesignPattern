@@ -1,0 +1,10 @@
+package example3;
+
+public class Mozzarella extends ToppingDecorator {
+
+	protected Mozzarella(Pizza pizza) {
+		super(pizza);
+		// TODO Auto-generated constructor stub
+	}
+
+}

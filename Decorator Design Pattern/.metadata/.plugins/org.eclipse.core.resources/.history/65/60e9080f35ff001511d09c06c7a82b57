@@ -1,0 +1,18 @@
+package example2;
+
+public class PetrolCarDecorator extends CarDecorator {
+
+	protected PetrolCarDecorator(Car car) {
+		super(car);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Car manufactureCar() {
+		return car.manufactureCar();
+	}
+	
+	private void addEngine(Car car){
+		
+	}
+}

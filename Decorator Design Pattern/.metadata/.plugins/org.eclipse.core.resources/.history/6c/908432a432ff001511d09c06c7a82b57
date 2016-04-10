@@ -1,0 +1,11 @@
+package example2;
+
+public abstract class CarDecorator implements Car {
+
+	@Override
+	public Car manufactureCar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

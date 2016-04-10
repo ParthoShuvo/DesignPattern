@@ -1,0 +1,11 @@
+package example3;
+
+public class DecoratorPatternDemo {
+
+	public static void main(String[] args) {
+		
+		ToppingDecorator decorator = new TomatoSauce(new Mozzarella(new PlainPizza()));
+
+	}
+
+}

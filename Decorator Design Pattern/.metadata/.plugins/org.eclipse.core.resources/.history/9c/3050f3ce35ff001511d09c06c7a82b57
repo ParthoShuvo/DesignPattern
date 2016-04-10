@@ -1,0 +1,12 @@
+package example2;
+
+public class DecoratorPatternDemo {
+
+	public static void main(String[] args) {
+		 Car bmwCar1 = new BMWCar();
+		 DieselCarDecorator decorator1 = new DieselCarDecorator(bmwCar1);
+		 decorator1.manufactureCar();
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package example2;
+
+public abstract class CarDecorator implements Car{
+	
+	
+	
+}

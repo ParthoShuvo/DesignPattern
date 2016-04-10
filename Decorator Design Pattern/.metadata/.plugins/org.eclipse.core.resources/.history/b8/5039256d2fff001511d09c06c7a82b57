@@ -1,0 +1,11 @@
+package example1;
+
+public abstract class ShapeDecorator implements Shape {
+
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

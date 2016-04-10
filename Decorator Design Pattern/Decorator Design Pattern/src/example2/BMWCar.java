@@ -1,0 +1,71 @@
+package example2;
+
+public class BMWCar implements Car {
+
+	private final String carName = "BMW";
+	private String carBody;
+	private String carDoor;
+	private String carWheels;
+	private String carGlass;
+	private String engine;
+
+	public String getCarBody() {
+		return carBody;
+	}
+
+	public void setCarBody(String carBody) {
+		this.carBody = carBody;
+	}
+
+	public String getCarDoor() {
+		return carDoor;
+	}
+
+	public void setCarDoor(String carDoor) {
+		this.carDoor = carDoor;
+	}
+
+	public String getCarWheels() {
+		return carWheels;
+	}
+
+	public void setCarWheels(String carWheels) {
+		this.carWheels = carWheels;
+	}
+
+	public String getCarGlass() {
+		return carGlass;
+	}
+
+	public void setCarGlass(String carGlass) {
+		this.carGlass = carGlass;
+	}
+
+	public String getEngine() {
+		return engine;
+	}
+
+	public void setEngine(String engine) {
+		this.engine = engine;
+	}
+
+	public String getCarName() {
+		return carName;
+	}
+
+	@Override
+	public Car manufactureCar() {
+		carBody = "Carbon fiber material";
+		carDoor = "4 car doors";
+		carGlass = "6 car glasses";
+		carWheels = "4 mrf wheels";
+		return this;
+	}
+
+	@Override
+	public String toString() {
+		return "BMW [carname:" + carName + " carbody:" + carBody + " cardoors:" + carDoor + " carwheels:" + carWheels
+				+ " carglass:" + carGlass + " engine:" + engine + "]";
+	}
+
+}

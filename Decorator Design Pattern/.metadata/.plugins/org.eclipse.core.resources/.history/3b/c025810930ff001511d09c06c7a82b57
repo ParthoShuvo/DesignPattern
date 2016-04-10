@@ -1,0 +1,10 @@
+package example1;
+
+public class RedShapeDecorator extends ShapeDecorator {
+
+	protected RedShapeDecorator(Shape shape) {
+		super(shape);
+		// TODO Auto-generated constructor stub
+	}
+
+}

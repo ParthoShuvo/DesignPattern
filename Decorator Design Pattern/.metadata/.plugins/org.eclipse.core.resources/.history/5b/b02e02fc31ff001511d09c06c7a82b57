@@ -1,0 +1,19 @@
+package example2;
+
+public class BMWCar implements Car {
+
+	private final String carName = "BMW";
+	private String carBody;
+	private String carDoor;
+	private String carWheels;
+	private String carGlass;
+	private String engine;
+	
+	
+	@Override
+	public Car manufactureCar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

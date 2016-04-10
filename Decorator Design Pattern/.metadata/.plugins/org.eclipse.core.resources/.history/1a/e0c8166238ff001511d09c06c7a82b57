@@ -1,0 +1,17 @@
+package example3;
+
+public class ToppingDecorator implements Pizza {
+
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
