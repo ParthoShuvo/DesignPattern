@@ -1,0 +1,9 @@
+package abstractFactoryDesignPattern;
+
+public class SeaAnimalFactory extends AbstractAnimalFactory{
+	
+	protected SeaAnimalFactory(){
+		
+	}
+
+}

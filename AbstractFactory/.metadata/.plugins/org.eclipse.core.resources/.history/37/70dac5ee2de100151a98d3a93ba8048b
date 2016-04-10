@@ -1,5 +1,0 @@
-package abstractFactoryDesignPattern;
-
-public abstract class EnemyShip {
-
-}

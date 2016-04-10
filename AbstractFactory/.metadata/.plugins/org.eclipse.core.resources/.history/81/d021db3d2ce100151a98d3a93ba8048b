@@ -1,8 +1,0 @@
-package abstractFactoryDesignPatternHelper;
-
-public interface ESEngine {
-
-	@Override
-	public String toString();
-
-}

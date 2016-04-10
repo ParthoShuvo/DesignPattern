@@ -1,0 +1,17 @@
+package abstractFactoryDesignPattern;
+
+public class SeaAnimalFactory extends AbstractAnimalFactory{
+	
+	protected SeaAnimalFactory(){
+		
+	}
+
+	@Override
+	protected Animal getAnimal(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

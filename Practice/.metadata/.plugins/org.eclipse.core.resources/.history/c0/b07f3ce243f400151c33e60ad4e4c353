@@ -1,0 +1,11 @@
+package abstractFactoryDesignPattern;
+
+public class Shark implements Animal {
+
+	@Override
+	public void speak() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

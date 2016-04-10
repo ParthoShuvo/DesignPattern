@@ -1,0 +1,15 @@
+package mvcdesignpattern;
+
+public class CalculatorController {
+	
+	private CalculatorModel cModel;
+	private CalculatorView cView;
+	
+	public CalculatorController(CalculatorModel cModel, CalculatorView cView) {
+		this.cModel = cModel;
+		this.cView = cView;
+	}
+	
+	
+	
+}

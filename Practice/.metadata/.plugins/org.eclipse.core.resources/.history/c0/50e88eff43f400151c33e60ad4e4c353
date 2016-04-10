@@ -1,0 +1,11 @@
+package abstractFactoryDesignPattern;
+
+public class Octupas implements Animal {
+
+	@Override
+	public void speak() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

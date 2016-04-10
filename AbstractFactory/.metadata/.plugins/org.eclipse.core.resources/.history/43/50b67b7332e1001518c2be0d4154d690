@@ -1,6 +1,0 @@
-package abstractFactoryDesignPattern;
-
-public abstract class EnemyShipBuilding {
-	
-	protected abstract EnemyShip makeEnemyShip(String type);
-}

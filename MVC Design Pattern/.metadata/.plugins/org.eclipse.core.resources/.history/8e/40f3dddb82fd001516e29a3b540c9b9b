@@ -1,0 +1,11 @@
+package mvcdesignpattern;
+
+import java.awt.TextField;
+
+import javax.swing.JFrame;
+
+public class CalculatorView extends JFrame {
+	
+	private TextField firstNumTxtField = new TextField();
+	
+}

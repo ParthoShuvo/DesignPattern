@@ -1,0 +1,12 @@
+package abstractFactoryDesignPattern;
+
+import javax.xml.parsers.FactoryConfigurationError;
+
+public abstract class AbstractAnimalFactory {
+
+	protected AbstractAnimalFactory() {
+
+	}
+	
+	
+}

@@ -1,0 +1,7 @@
+package mvcdesignpattern;
+
+import javax.swing.JFrame;
+
+public class CalculatorView extends JFrame {
+
+}

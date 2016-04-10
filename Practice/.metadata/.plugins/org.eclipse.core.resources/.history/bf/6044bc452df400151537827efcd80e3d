@@ -1,0 +1,11 @@
+package factoryDesignPattern;
+
+public class Duck implements Animal {
+
+	@Override
+	public String speak() {
+		// TODO Auto-generated method stub
+		System.out.println("Duck is quacking");
+	}
+
+}

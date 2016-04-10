@@ -1,0 +1,10 @@
+package abstractFactoryDesignPattern;
+
+public abstract class AbstractAnimalFactory {
+
+	protected AbstractAnimalFactory() {
+
+	}
+
+	protected abstract Animal getAnimal();
+}

@@ -1,5 +1,0 @@
-package factoryDesignPattern;
-
-public class UFOEnemyShip extends EnemyShip {
-
-}

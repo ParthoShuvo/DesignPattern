@@ -1,0 +1,11 @@
+package abstractFactoryDesignPattern;
+
+public class Octupas implements Animal {
+
+	@Override
+	public void speak() {
+		System.out.println("Octopas can't speak");
+
+	}
+
+}
